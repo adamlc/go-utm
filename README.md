@@ -11,7 +11,7 @@ go get -u github.com/adamlc/go-utm
 ## Usage
 
 ```go
-url, err := utm.BuildURL("https://test.com", Config{
+url, err := utm.BuildURL("https://test.com", utm.Config{
 	Source: "google",
 	Medium: "email",
 	Campaign: "Awesome Test"},
