@@ -1,4 +1,6 @@
 # UTM Tag Builder
+[![Travis](https://travis-ci.org/adamlc/go-utm.svg?branch=master)](https://travis-ci.org/adamlc/go-utm)
+
 Use UTM Tag Builder to add Google utm tags to a URL.
 
 ## Installation
