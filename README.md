@@ -1,5 +1,6 @@
 # UTM Tag Builder
 [![Travis](https://travis-ci.org/adamlc/go-utm.svg?branch=master)](https://travis-ci.org/adamlc/go-utm)
+[![Go Report Card](https://goreportcard.com/badge/github.com/adamlc/go-utm)](https://goreportcard.com/report/github.com/adamlc/go-utm) [![codecov](https://codecov.io/gh/adamlc/go-utm/branch/master/graph/badge.svg)](https://codecov.io/gh/adamlc/go-utm)
 
 Use UTM Tag Builder to add Google utm tags to a URL.
 
