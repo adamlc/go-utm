@@ -47,8 +47,13 @@ func BuildURL(rawurl string, config Config) (string, error) {
 	}
 
 	// First parse the URL
-	url, err := url.ParseRequestURI(rawurl)
+	url, err := url.Parse(rawurl)
 	if err != nil {
+		return "", ErrInvalidURL
+	}
+
+	// UTM builder can only be used on http and https schemes, so lets check those
+	if url.Scheme != "http" && url.Scheme != "https" {
 		return "", ErrInvalidURL
 	}
 
